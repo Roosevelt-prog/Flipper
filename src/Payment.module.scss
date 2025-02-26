@@ -1,0 +1,156 @@
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    height: 7vh;
+    border-bottom: 1px solid #e4e4e4;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+
+    img {
+        width: 180px;
+    }
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.main {
+    text-align: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    flex: 1;
+
+    h1 {
+        font-size: 1.75rem;
+    }
+}
+
+.product_wrapper {
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #e88004;
+    border-radius: 4px;
+    padding: 1rem;
+
+    img {
+        max-width: 6rem;
+        object-fit: cover;
+        border: 2px solid #eecca2;
+        border-radius: 4px;
+        padding: .25rem;
+    }
+
+    .product_info {
+        // border: 1px solid red;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 100%;
+
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: .5rem;
+        }
+
+        span {
+            font-weight: bold;
+            transition: color .3s;
+        }
+
+        .plus, .minus {
+            font-size: 2rem;
+            cursor: pointer;
+        }
+
+        .plus {
+            &:hover {
+                color: rgb(105, 230, 105);
+            }
+        }
+
+        .minus {
+            &:hover {
+                color: rgb(255, 43, 43);
+            }
+        }
+    }
+}
+
+.buttons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 2rem;
+
+    @media (max-width: 767px) {
+        flex-direction: column;
+    }
+}
+
+.pix {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        max-width: 20rem;
+    }
+
+    .text_wrapper {
+        border: 2px solid #e88004;
+        padding: .5rem;
+        inline-size: 20rem;
+        overflow-wrap: break-word;
+    }
+
+    button {
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+        
+        svg {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+.footer {
+    background: #171717;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+
+    a {
+      font-size: 2rem;
+      color: #fff;
+      transition: .3s ease-in;
+
+      &:hover {
+        color: #e88004
+      }
+    }
+}
