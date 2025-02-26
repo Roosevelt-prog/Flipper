@@ -60,13 +60,13 @@ export default function Home() {
             </mesh>
           </Canvas> */}
         <h2>
-          Adquira seu Flipper Zero diretamente no Brasil com o dev @Joao.Alura!
+          Adquira seu Flipper diretamente no Brasil com dev @Joao.Alura!
         </h2>
         <p>
           Envio prático e frete grátis para todo país.
         </p>
         <p>
-          R$ 950,90 à vista no PIX ou R$ 1.210,00 em até 12x.
+          R$950,90 no PIX ou R$1.210,00 até 12x.
         </p>
         <div>
           <a
