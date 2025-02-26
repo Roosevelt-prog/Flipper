@@ -109,12 +109,12 @@ export default function Home() {
 
       <div id="about" className={styles.about}>
         <div className={styles.text_wrapper}>
-          <h2>Sobre nós</h2>
+          <h2>Sobre mim</h2>
           <p>
-            Como Pentester, professor na Alura.Online e revendedor do Flipper Zero desde 2021, @Joao.Alura conquistou diversos clientes em todo o Brasil importando o Golfinho mais amado por Hackers & Geeks, clientes nos quais você pode consultar na central/grupo de referências!
+            Como Pentester profissional, TOP 6 Mundial em CTF's pela plataforma Tryhackme e professor de Back-end na Alura.Online, Eu (@Joao.Alura) conquistei diversos clientes em todo o Brasil, os quais você pode consultar na central/grupo de referências!
 
           </p>
-          <p>Estas são algumas das vantagens que terá adquirindo seu Flipper Zero aqui:</p>
+          <p>Estas são algumas das vantagens que terá adquirindo seu Flipper Zero:</p>
         </div>
         <div className={styles.cards}>
           <div className={styles.card}>
