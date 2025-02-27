@@ -91,12 +91,12 @@ export default function Home() {
           >
             <button>
               Comprar
-            </button>*/}
-          </a>
+            </button>
+          </a>*/}
         </div>
       </div>
-
-      <div id="flipper" className={styles.flipper}>
+  
+  <div id="flipper" className={styles.flipper}>
         <div className={styles.text_wrapper}>
           <h2>O que é o Flipper Zero?</h2>
           <p>Flipper Zero é uma multi-ferramenta portátil para engenheiros e geeks em um corpo semelhante a um brinquedo. Ele adora pesquisar coisas digitais como protocolos de rádio, sistemas de controle de acesso, hardware e muito mais. É totalmente de código aberto e personalizável, para que você possa estendê-lo da maneira que quiser. Características do Flipper Zero:</p>
