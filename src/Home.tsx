@@ -60,7 +60,7 @@ export default function Home() {
             </mesh>
           </Canvas> */}
         <h2>
-          Adquira seu Flipper diretamente no Brasil {/* com dev @Joao.Alura!*/}
+          Adquira seu Flipper diretamente no Brasil com dev @Joao.Alura!
         </h2>
         <p>
           Envio prático e frete grátis para todo país.
@@ -119,7 +119,7 @@ export default function Home() {
         <div className={styles.text_wrapper}>
           <h2>Sobre mim</h2>
           <p>
-            Como Pentester profissional, TOP 6 Mundial em CTF's pela plataforma Tryhackme e professor de Back-end na Alura.Online,   {/*Eu (@Joao.Alura)*/} conquistei diversos clientes em todo o Brasil, os quais você pode consultar na central/grupo de referências!
+            Como Pentester profissional, TOP 6 Mundial em CTF's pela plataforma Tryhackme e professor de Back-end na Alura.Online,   Eu (@Joao.Alura) conquistei diversos clientes em todo o Brasil, os quais você pode consultar na central/grupo de referências!
 
           </p>
           <p>Estas são algumas das vantagens que terá adquirindo seu Flipper Zero:</p>
