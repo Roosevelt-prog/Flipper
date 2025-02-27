@@ -69,7 +69,7 @@ export default function Home() {
           R$950,90 no PIX ou R$1.210,00 até 12x.
         </p>
         <div>
-          <a
+         {/* <a
             href="https://serum7.pay.yampi.com.br/r/HLL8H3RG1E"
             target="_blank"
           >
@@ -83,6 +83,14 @@ export default function Home() {
           >
             <button>
               Entrar em contato
+            </button>
+          </a>*/}
+          <a
+            href="https://api.whatsapp.com/send?phone=+5561986027994&text=Oi Dev!%20Gostaria%20de%20saber%20mais%20sobre%20o%20FlipperZero."
+            target="_blank"
+          >
+            <button>
+              Comprar
             </button>
           </a>
         </div>
