@@ -69,8 +69,8 @@ export default function Home() {
           R$950,90 no PIX ou R$1.210,00 até 12x.
         </p>
         <div>
-         {/* <a
-            href="https://serum7.pay.yampi.com.br/r/HLL8H3RG1E"
+          <a
+            href="https://flipperseek.carrinho.app/one-checkout/ocmtb/24092694"
             target="_blank"
           >
             <button>
@@ -84,14 +84,14 @@ export default function Home() {
             <button>
               Entrar em contato
             </button>
-          </a>*/}
-          <a
+          </a>
+         {/* <a
             href="https://api.whatsapp.com/send?phone=+5561986027994&text=Oi Dev!%20Gostaria%20de%20saber%20mais%20sobre%20o%20FlipperZero."
             target="_blank"
           >
             <button>
               Comprar
-            </button>
+            </button>*/}
           </a>
         </div>
       </div>
