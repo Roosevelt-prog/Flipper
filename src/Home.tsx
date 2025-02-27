@@ -34,12 +34,12 @@ export default function Home() {
           <a href="#flipper">Flipper Zero</a>
           <a href="#about">Sobre nós</a>
           <a href="#testimonials">Depoimentos</a>
-          <Link to="/form">
+       {/*    <Link to="/form">
             <button type="button">
               Comprar
               <small> R$ 950,90</small>
             </button>
-          </Link>
+          </Link> */}
         </nav>
       </header>
 
