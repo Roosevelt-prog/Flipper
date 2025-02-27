@@ -180,7 +180,7 @@ export default function Home() {
             <blockquote>
               <p>
                 <span>&ldquo;</span>
-                Agradecer ao João pelo unleashed configurado, chegou em 8 dias. Obrigado pelo suporte.
+                Agradecer ao João pelo unleashed configurado, chegou em 8 dias. Obrigado pelo suporte com firmware.
               </p>
               <cite>
                 <img
@@ -194,7 +194,7 @@ export default function Home() {
             <blockquote>
               <p>
                 <span>&ldquo;</span>
-                Recebi o produto rapidamente e fui muito bem atendido! Recomendo a todos!
+                Recebi o produto rapidamente e fui muito bem atendido! Recomendo a todos desde já!
               </p>
               <cite>
                 <img
@@ -208,7 +208,7 @@ export default function Home() {
             <blockquote>
               <p>
                 <span>&ldquo;</span>
-                9 dias até o rio de janeiro, obrigado pela atenção e meus parabéns pelo trabalho :)
+                9 dias até o rio de janeiro, obrigado por toda a atenção e meus parabéns pelo trabalho :)
               </p>
               <cite>
                 <img
