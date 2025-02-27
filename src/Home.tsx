@@ -238,15 +238,15 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <div>
-            {/*<h2>João C. Dev</h2>
-          <p>©2021 @Joao.Alura</p>*/}
+            <h2>João C. Dev</h2>
+          <p>©2021 @Joao.Alura</p>
           <p>Todos os direitos reservados.</p>
         </div>
         <div>
           <a href="https://api.whatsapp.com/send?phone=+556198602-7994&text=Oi!%20Gostaria%20de%20saber%20mais%20sobre%20o%20FlipperZero.">
             <WhatsappLogo weight="light" />
           </a>
-          <a href="https://www.instagram.com/">
+          <a href="https://www.instagram.com/joao.alura">
             <InstagramLogo weight="light" />
           </a>
         </div>
