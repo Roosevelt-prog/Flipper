@@ -208,7 +208,7 @@ export default function Home() {
             <blockquote>
               <p>
                 <span>&ldquo;</span>
-                9 dias até o rio de janeiro, obrigado por toda a atenção e meus parabéns pelo trabalho :)
+                9 dias até o rio de janeiro, obrigado por toda a atenção e meus parabéns pelo trabalho joão! :)
               </p>
               <cite>
                 <img
