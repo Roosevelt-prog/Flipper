@@ -60,7 +60,7 @@ export default function Home() {
             </mesh>
           </Canvas> */}
         <h2>
-          Adquira seu Flipper diretamente no Brasil com dev @Joao.Alura!
+          Adquira seu Flipper diretamente no Brasil {/* com dev @Joao.Alura!*/}
         </h2>
         <p>
           Envio prático e frete grátis para todo país.
@@ -119,7 +119,7 @@ export default function Home() {
         <div className={styles.text_wrapper}>
           <h2>Sobre mim</h2>
           <p>
-            Como Pentester profissional, TOP 6 Mundial em CTF's pela plataforma Tryhackme e professor de Back-end na Alura.Online, Eu (@Joao.Alura) conquistei diversos clientes em todo o Brasil, os quais você pode consultar na central/grupo de referências!
+            Como Pentester profissional, TOP 6 Mundial em CTF's pela plataforma Tryhackme e professor de Back-end na Alura.Online,   {/*Eu (@Joao.Alura)*/} conquistei diversos clientes em todo o Brasil, os quais você pode consultar na central/grupo de referências!
 
           </p>
           <p>Estas são algumas das vantagens que terá adquirindo seu Flipper Zero:</p>
@@ -238,15 +238,15 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <div>
-          <h2>João C. Dev</h2>
-          <p>©2021 @Joao.Alura</p>
+            {/*<h2>João C. Dev</h2>
+          <p>©2021 @Joao.Alura</p>*/}
           <p>Todos os direitos reservados.</p>
         </div>
         <div>
           <a href="https://api.whatsapp.com/send?phone=+556198602-7994&text=Oi!%20Gostaria%20de%20saber%20mais%20sobre%20o%20FlipperZero.">
             <WhatsappLogo weight="light" />
           </a>
-          <a href="https://www.instagram.com/joao.alura">
+          <a href="https://www.instagram.com/">
             <InstagramLogo weight="light" />
           </a>
         </div>
