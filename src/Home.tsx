@@ -69,20 +69,28 @@ export default function Home() {
           R$950,90 no PIX ou R$1.210,00 até 12x.
         </p>
         <div>
-          <a
+         {/* <a
             href="https://flipperseek.carrinho.app/one-checkout/ocmtb/24092694"
             target="_blank"
           >
             <button>
               Comprar
             </button>
-          </a>
+          </a>*/}
           <a
             href="https://api.whatsapp.com/send?phone=+5561986027994&text=Oi Dev!%20Gostaria%20de%20saber%20mais%20sobre%20o%20FlipperZero."
             target="_blank"
           >
             <button>
               Entrar em contato
+            </button>
+          </a>
+          <a
+            href="https://flipperseek.carrinho.app/one-checkout/ocmtb/24092694"
+            target="_blank"
+          >
+            <button>
+              Comprar
             </button>
           </a>
          {/* <a
