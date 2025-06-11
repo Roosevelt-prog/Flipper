@@ -34,12 +34,12 @@ export default function Home() {
           <a href="#flipper">Flipper Zero</a>
           <a href="#about">Sobre nós</a>
           <a href="#testimonials">Depoimentos</a>
-       {/*    <Link to="/form">
+          <Link to="/form">
             <button type="button">
               Comprar
               <small> R$ 950,90</small>
             </button>
-          </Link> */}
+          </Link>
         </nav>
       </header>
 
@@ -60,51 +60,27 @@ export default function Home() {
             </mesh>
           </Canvas> */}
         <h2>
-          Adquira seu Flipper diretamente no Brasil com dev @Joao.Alura!
+          Adquira seu Flipper Zero diretamente no Brasil com o dev @Joao.Alura!
         </h2>
         <p>
-          Envio prático e frete grátis para todo país.
+          Entrega de 7 a 21 dias com frete grátis para todo país.
         </p>
         <p>
-          R$950,90 no PIX ou R$1.210,00 até 12x.
+          R$ 950,90 à vista no PIX ou R$ 1197,00 no cartão.
         </p>
         <div>
-         {/* <a
-            href="https://flipperseek.carrinho.app/one-checkout/ocmtb/24092694"
-            target="_blank"
-          >
-            <button>
-              Comprar
-            </button>
-          </a>*/}
           <a
             href="https://api.whatsapp.com/send?phone=+5561986027994&text=Oi Dev!%20Gostaria%20de%20saber%20mais%20sobre%20o%20FlipperZero."
-            target="_blank"
-          >
-            <button>
-              Entrar em contato
-            </button>
-          </a>
-          <a
-            href="https://flipperseek.carrinho.app/one-checkout/ocmtb/24092694"
             target="_blank"
           >
             <button>
               Comprar
             </button>
           </a>
-         {/* <a
-            href="https://api.whatsapp.com/send?phone=+5561986027994&text=Oi Dev!%20Gostaria%20de%20saber%20mais%20sobre%20o%20FlipperZero."
-            target="_blank"
-          >
-            <button>
-              Comprar
-            </button>
-          </a>*/}
         </div>
       </div>
-  
-  <div id="flipper" className={styles.flipper}>
+
+      <div id="flipper" className={styles.flipper}>
         <div className={styles.text_wrapper}>
           <h2>O que é o Flipper Zero?</h2>
           <p>Flipper Zero é uma multi-ferramenta portátil para engenheiros e geeks em um corpo semelhante a um brinquedo. Ele adora pesquisar coisas digitais como protocolos de rádio, sistemas de controle de acesso, hardware e muito mais. É totalmente de código aberto e personalizável, para que você possa estendê-lo da maneira que quiser. Características do Flipper Zero:</p>
@@ -125,12 +101,12 @@ export default function Home() {
 
       <div id="about" className={styles.about}>
         <div className={styles.text_wrapper}>
-          <h2>Sobre mim</h2>
+          <h2>Sobre nós</h2>
           <p>
-            Como Pentester profissional, TOP 6 Mundial em CTF's pela plataforma Tryhackme e professor de Back-end na Alura.Online,   Eu (@Joao.Alura) conquistei diversos clientes em todo o Brasil, os quais você pode consultar na central/grupo de referências!
+            Como Pentester, professor na Alura.Online e revendedor do Flipper Zero desde 2021, @Joao.Alura conquistou diversos clientes em todo o Brasil importando o Golfinho mais amado por Hackers & Geeks, clientes nos quais você pode consultar na central/grupo de referências!
 
           </p>
-          <p>Estas são algumas das vantagens que terá adquirindo seu Flipper Zero:</p>
+          <p>Estas são algumas das vantagens que terá adquirindo seu Flipper Zero aqui:</p>
         </div>
         <div className={styles.cards}>
           <div className={styles.card}>
@@ -174,7 +150,7 @@ export default function Home() {
             <blockquote>
               <p>
                 <span>&ldquo;</span>
-                Cumpre o prometido e funciona muito bem, resolveu minhas cópias de chave, estacionamento e escritório.
+                Cumpre o prometido e funciona muito bem, RFID dele resolveu minhas cópias de chave, estacionamento e escritório.
               </p>
               <cite>
                 <img
@@ -188,7 +164,7 @@ export default function Home() {
             <blockquote>
               <p>
                 <span>&ldquo;</span>
-                Agradecer ao João pelo unleashed configurado, chegou em 8 dias. Obrigado pelo suporte com firmware.
+                Agradecer pelo unleashed configurado, chegou em 8 dias no rio de janeiro. Obrigado pelo suporte.
               </p>
               <cite>
                 <img
@@ -202,7 +178,7 @@ export default function Home() {
             <blockquote>
               <p>
                 <span>&ldquo;</span>
-                Recebi o produto rapidamente e fui muito bem atendido! Recomendo a todos desde já!
+                Recebi o produto rapidamente e fui muito bem atendido! obrigado ao joão, e Recomendo a todos, até a próxima!
               </p>
               <cite>
                 <img
@@ -216,7 +192,7 @@ export default function Home() {
             <blockquote>
               <p>
                 <span>&ldquo;</span>
-                9 dias até o rio de janeiro, obrigado por toda a atenção e meus parabéns pelo trabalho joão! :)
+                9 dias até são paulo capital, obrigado pela atenção e meus parabéns pelo trabalho com os firmwares! :)
               </p>
               <cite>
                 <img
@@ -246,8 +222,8 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <div>
-            <h2>João S. Dev</h2>
-          <p>©2021 @Joao.Alura</p>
+          <h2>João Dev</h2>
+          <p>©2021 @João.Alura</p>
           <p>Todos os direitos reservados.</p>
         </div>
         <div>
